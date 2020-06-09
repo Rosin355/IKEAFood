@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "panino-vegetariano-ikea-1b6f1ed4bc9f84ecd66d993e0f7a7b82.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

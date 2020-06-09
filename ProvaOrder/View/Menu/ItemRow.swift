@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ItemRow.swift
 //  ProvaOrder
 //
 //  Created by Romesh Singhabahu on 08/06/2020.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ItemRow: View {
     var body: some View {
-        Text("Hello, World!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ItemRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ItemRow()
     }
 }

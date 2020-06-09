@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "tonno-grigliato-ikea-1de9bc402056df866f00f1a3ad9e20e3.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

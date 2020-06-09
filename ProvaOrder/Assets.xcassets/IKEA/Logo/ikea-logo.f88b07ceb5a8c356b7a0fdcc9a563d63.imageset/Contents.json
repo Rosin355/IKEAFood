@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

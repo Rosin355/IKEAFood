@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "piatto-regionale-giugno-94f0a41c47c6f45d06ca966209147985.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
