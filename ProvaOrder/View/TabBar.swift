@@ -23,9 +23,9 @@ struct TabBar: View {
                 Text("Menu")
                 
             }.tag(1)
-            ContentView().tabItem {
-                Image(systemName: "bell").font(.system(size: 16, weight: .bold, design: .rounded))
-                Text("Notifiche")
+            OrderView().tabItem {
+                Image(systemName: "square.and.pencil").font(.system(size: 16, weight: .bold, design: .rounded))
+                Text("Ordini")
             }.tag(2)
             ContentView().tabItem {
                 Image(systemName: "person").font(.system(size: 16, weight: .bold, design: .rounded))
@@ -41,7 +41,9 @@ struct TabBar: View {
 }
 
 struct TabBar_Previews: PreviewProvider {
+    
+    static let order = Order()
     static var previews: some View {
-        TabBar()
+        TabBar().environmentObject(order)
     }
 }

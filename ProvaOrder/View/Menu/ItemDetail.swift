@@ -11,6 +11,9 @@ import SwiftUI
 struct ItemDetail: View {
     
     @EnvironmentObject var order: Order
+    
+    @State private var showingAlert = false
+    
     var item: MenuItem
     
     private func getScrollOffest(_ geometry: GeometryProxy) -> CGFloat {
@@ -30,7 +33,7 @@ struct ItemDetail: View {
     }
     
     private func getHeightForHeaderImage(_ geometry: GeometryProxy) -> CGFloat {
-       
+        
         let offset = getScrollOffest(geometry)
         let imageHeight = geometry.size.height
         
@@ -75,29 +78,51 @@ struct ItemDetail: View {
                             .fontWeight(.semibold)
                     }
                 }
-                    // 3. WAITING HOURS
-                    Text("Tempi di attesa: 3min")
-                        .foregroundColor(.gray)
+                // 3. WAITING HOURS
+                Text("Tempi di attesa: 3min")
+                    .foregroundColor(.gray)
                 
-                    // 4. TITLE ITEM
-                    Text(item.name)
-                        .font(.title)
-                        .fontWeight(.heavy)
+                // 4. TITLE ITEM
+                Text(item.name)
+                    .font(.title)
+                    .fontWeight(.heavy)
                 
-                    // 5. DESCRIPTION ITEM
-                    Text(item.description)
-                        .lineLimit(nil)
-                        .font(.system(size: 17))
+                // 5. DESCRIPTION ITEM
+                Text(item.description)
+                    .lineLimit(nil)
+                    .font(.system(size: 17))
+                    .padding(.bottom)
                 
+                 // 6. BUY NOW BUTTON
+                Button(action: {
+                    self.order.add(item: self.item)
+                    self.showingAlert = true
+                }) {
+                    HStack {
+                        Text("Compra ora")
+                    }
+                    .font(.headline)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.leading)
+                    .padding(1.0)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                }
+                .padding()
+                .background(Color("IkeaBlu"))
+                .cornerRadius(8)
+                .alert(isPresented: $showingAlert) {
+                    Alert(title: Text("🎉 \(item.name) aggiunto corretamente"))
+                               }
+              
             }
             .padding(.horizontal)
             .padding(.top, 16.0)
         }.edgesIgnoringSafeArea(.all)
         
-      
-       
+        
+        
     }
-       
+    
 }
 
 struct ItemDetail_Previews: PreviewProvider {
