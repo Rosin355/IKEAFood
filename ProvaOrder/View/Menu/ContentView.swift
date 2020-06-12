@@ -21,20 +21,17 @@ struct ContentView: View {
 //                    Text("Ristorante").tag(1)
 //                }.pickerStyle(SegmentedPickerStyle())
 //            }.padding()
-            
-            VStack {
                 List {
                     ForEach(menu) { section in
                         Section(header: Text(section.name)) {
                             ForEach(section.items) { item in
-                                Text(item.name)
+                                ItemRow(item: item)
                             }
                         }
                     }
                 }
-            }
-            .navigationBarTitle("Menu", displayMode: .inline)
-            .listStyle(GroupedListStyle())
+                .navigationBarTitle("Menu", displayMode: .inline)
+                .listStyle(GroupedListStyle())
         }
     }
 }

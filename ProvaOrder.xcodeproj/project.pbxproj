@@ -14,10 +14,22 @@
 		CD7DA67F248E7B3C00E6666C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7DA67E248E7B3C00E6666C /* Assets.xcassets */; };
 		CD7DA682248E7B3C00E6666C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7DA681248E7B3C00E6666C /* Preview Assets.xcassets */; };
 		CD7DA685248E7B3C00E6666C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7DA683248E7B3C00E6666C /* LaunchScreen.storyboard */; };
+		CD7DA690248E7B6600E6666C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA68C248E7B6500E6666C /* Menu.swift */; };
+		CD7DA691248E7B6600E6666C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA68D248E7B6500E6666C /* Order.swift */; };
+		CD7DA692248E7B6600E6666C /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7DA68E248E7B6500E6666C /* menu.json */; };
+		CD7DA693248E7B6600E6666C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA68F248E7B6500E6666C /* Helper.swift */; };
+		CD7DA69C248E8AFF00E6666C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA697248E8AFE00E6666C /* HeaderView.swift */; };
+		CD7DA69D248E8AFF00E6666C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA698248E8AFE00E6666C /* Home.swift */; };
+		CD7DA69E248E8AFF00E6666C /* RowNovitàView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA699248E8AFF00E6666C /* RowNovitàView.swift */; };
+		CD7DA69F248E8AFF00E6666C /* RowTrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA69A248E8AFF00E6666C /* RowTrendingView.swift */; };
+		CD7DA6A0248E8AFF00E6666C /* LoyaltyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA69B248E8AFF00E6666C /* LoyaltyCardView.swift */; };
+		CD7DA6A2248E8B1B00E6666C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA6A1248E8B1B00E6666C /* TabBar.swift */; };
+		CD7DA6A5248EC6BB00E6666C /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA6A4248EC6BB00E6666C /* ItemRow.swift */; };
+		CD9521A3248F936100E7DB5A /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9521A2248F936100E7DB5A /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD7DA672248E7B3900E6666C /* ProvaOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvaOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7DA672248E7B3900E6666C /* IKEAFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEAFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7DA675248E7B3900E6666C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7DA677248E7B3900E6666C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CD7DA67A248E7B3900E6666C /* ProvaOrder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProvaOrder.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +38,18 @@
 		CD7DA681248E7B3C00E6666C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD7DA684248E7B3C00E6666C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD7DA686248E7B3C00E6666C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7DA68C248E7B6500E6666C /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		CD7DA68D248E7B6500E6666C /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CD7DA68E248E7B6500E6666C /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		CD7DA68F248E7B6500E6666C /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CD7DA697248E8AFE00E6666C /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CD7DA698248E8AFE00E6666C /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CD7DA699248E8AFF00E6666C /* RowNovitàView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RowNovitàView.swift"; sourceTree = "<group>"; };
+		CD7DA69A248E8AFF00E6666C /* RowTrendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowTrendingView.swift; sourceTree = "<group>"; };
+		CD7DA69B248E8AFF00E6666C /* LoyaltyCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyCardView.swift; sourceTree = "<group>"; };
+		CD7DA6A1248E8B1B00E6666C /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		CD7DA6A4248EC6BB00E6666C /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		CD9521A2248F936100E7DB5A /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +74,7 @@
 		CD7DA673248E7B3900E6666C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD7DA672248E7B3900E6666C /* ProvaOrder.app */,
+				CD7DA672248E7B3900E6666C /* IKEAFood.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +84,10 @@
 			children = (
 				CD7DA675248E7B3900E6666C /* AppDelegate.swift */,
 				CD7DA677248E7B3900E6666C /* SceneDelegate.swift */,
-				CD7DA67C248E7B3900E6666C /* ContentView.swift */,
+				CD7DA695248E8A9E00E6666C /* View */,
+				CD7DA68E248E7B6500E6666C /* menu.json */,
+				CD7DA68F248E7B6500E6666C /* Helper.swift */,
+				CD7DA694248E889600E6666C /* Model */,
 				CD7DA67E248E7B3C00E6666C /* Assets.xcassets */,
 				CD7DA683248E7B3C00E6666C /* LaunchScreen.storyboard */,
 				CD7DA686248E7B3C00E6666C /* Info.plist */,
@@ -76,6 +103,47 @@
 				CD7DA681248E7B3C00E6666C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD7DA694248E889600E6666C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD7DA68C248E7B6500E6666C /* Menu.swift */,
+				CD7DA68D248E7B6500E6666C /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD7DA695248E8A9E00E6666C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD7DA6A1248E8B1B00E6666C /* TabBar.swift */,
+				CD7DA6A3248EC6AB00E6666C /* Menu */,
+				CD7DA696248E8AEF00E6666C /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD7DA696248E8AEF00E6666C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD7DA697248E8AFE00E6666C /* HeaderView.swift */,
+				CD7DA698248E8AFE00E6666C /* Home.swift */,
+				CD7DA69B248E8AFF00E6666C /* LoyaltyCardView.swift */,
+				CD7DA699248E8AFF00E6666C /* RowNovitàView.swift */,
+				CD7DA69A248E8AFF00E6666C /* RowTrendingView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD7DA6A3248EC6AB00E6666C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CD7DA67C248E7B3900E6666C /* ContentView.swift */,
+				CD7DA6A4248EC6BB00E6666C /* ItemRow.swift */,
+				CD9521A2248F936100E7DB5A /* ItemDetail.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +163,7 @@
 			);
 			name = ProvaOrder;
 			productName = ProvaOrder;
-			productReference = CD7DA672248E7B3900E6666C /* ProvaOrder.app */;
+			productReference = CD7DA672248E7B3900E6666C /* IKEAFood.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,6 +206,7 @@
 			files = (
 				CD7DA685248E7B3C00E6666C /* LaunchScreen.storyboard in Resources */,
 				CD7DA682248E7B3C00E6666C /* Preview Assets.xcassets in Resources */,
+				CD7DA692248E7B6600E6666C /* menu.json in Resources */,
 				CD7DA67F248E7B3C00E6666C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,10 +218,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7DA691248E7B6600E6666C /* Order.swift in Sources */,
+				CD7DA693248E7B6600E6666C /* Helper.swift in Sources */,
 				CD7DA676248E7B3900E6666C /* AppDelegate.swift in Sources */,
+				CD7DA6A5248EC6BB00E6666C /* ItemRow.swift in Sources */,
 				CD7DA67B248E7B3900E6666C /* ProvaOrder.xcdatamodeld in Sources */,
+				CD7DA69D248E8AFF00E6666C /* Home.swift in Sources */,
+				CD7DA69E248E8AFF00E6666C /* RowNovitàView.swift in Sources */,
+				CD7DA69F248E8AFF00E6666C /* RowTrendingView.swift in Sources */,
 				CD7DA67D248E7B3900E6666C /* ContentView.swift in Sources */,
 				CD7DA678248E7B3900E6666C /* SceneDelegate.swift in Sources */,
+				CD7DA6A2248E8B1B00E6666C /* TabBar.swift in Sources */,
+				CD7DA690248E7B6600E6666C /* Menu.swift in Sources */,
+				CD7DA69C248E8AFF00E6666C /* HeaderView.swift in Sources */,
+				CD9521A3248F936100E7DB5A /* ItemDetail.swift in Sources */,
+				CD7DA6A0248E8AFF00E6666C /* LoyaltyCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = romeshsinghabahu.ProvaOrder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IKEAFood;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = romeshsinghabahu.ProvaOrder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IKEAFood;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

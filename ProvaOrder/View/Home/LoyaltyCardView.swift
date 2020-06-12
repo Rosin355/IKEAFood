@@ -18,16 +18,13 @@ struct LoyaltyCardView: View {
             HStack {
                 VStack {
                     Text("Scopri tutti i vantaggi")
-                        .font(.system(.title, design: .rounded))
+                        .font(.system(.title))
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
-                        .lineLimit(2)
-                        .padding()
-                        
+                        .lineLimit(nil)
                     
-                    Text("IKEA Family è per tutti coloro che amano la loro casa e hanno un debole per l'arredamento. Non importa in che periodo della tua vita ti trovi, chiunque è il benvenuto da IKEA Family...")
-                        .font(.system(.subheadline))
-                        .fontWeight(.bold)
+                    Text("IKEA Family è per tutti coloro che amano la loro casa")
+                        .font(.system(.body))
                         .multilineTextAlignment(.center)
                         .lineLimit(nil)
                 }

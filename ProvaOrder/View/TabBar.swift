@@ -9,8 +9,8 @@
 import SwiftUI
 
 struct TabBar: View {
-    
-    @State private var selection = 1
+        
+    @State private var selection = 2
     
     var body: some View {
         TabView {
@@ -18,7 +18,7 @@ struct TabBar: View {
                 Image(systemName: "house").font(.system(size: 16, weight: .bold, design: .rounded))
                 Text("Home")
             }.tag(0)
-            MenuMainView().tabItem {
+            ContentView().tabItem {
                 Image(systemName: "bag").font(.system(size: 16, weight: .bold, design: .rounded))
                 Text("Menu")
                 
@@ -31,10 +31,12 @@ struct TabBar: View {
                 Image(systemName: "person").font(.system(size: 16, weight: .bold, design: .rounded))
                 Text("Impostazioni")
             }.tag(3)
-        }   .onAppear {
-            UITabBar.appearance().isTranslucent = false
-            UITabBar.appearance().barTintColor = UIColor(named: "IkeaBlu")
-        }.accentColor(Color(.white))
+        }
+//        .onAppear {
+        //If you comment the translucent property it get rid of the gray rectangle
+//           // UITabBar.appearance().isTranslucent = false
+//            UITabBar.appearance().barTintColor = UIColor(named: "IkeaBlu")
+//        }.accentColor(Color(.white))
     }
 }
 

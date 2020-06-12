@@ -64,7 +64,9 @@ struct Home: View {
                     // MARK: - BOTTOM CARD LOYALITY
                     VStack {
                         LoyaltyCardView()
-                    }.padding()
+                    }
+                    .padding(.leading)
+                    .padding(.bottom)
                     
                 }
             }

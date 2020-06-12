@@ -9,13 +9,104 @@
 import SwiftUI
 
 struct ItemDetail: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    
+    @EnvironmentObject var order: Order
+    var item: MenuItem
+    
+    private func getScrollOffest(_ geometry: GeometryProxy) -> CGFloat {
+        geometry.frame(in: .global).minY
     }
+    
+    private func getOffsetForHeaderImage(_ geometry: GeometryProxy) -> CGFloat {
+        
+        let offset = getScrollOffest(geometry)
+        
+        // image was pulled down
+        if offset > 0 {
+            return -offset
+        }
+        
+        return 0
+    }
+    
+    private func getHeightForHeaderImage(_ geometry: GeometryProxy) -> CGFloat {
+       
+        let offset = getScrollOffest(geometry)
+        let imageHeight = geometry.size.height
+        
+        if offset > 0 {
+            return imageHeight + offset
+        }
+        return imageHeight
+        
+    }
+    
+    var body: some View {
+        
+        ScrollView {
+            GeometryReader { geometry in
+                Image(self.item.mainImage)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: geometry.size.width, height: self.getHeightForHeaderImage(geometry))
+                    .clipped()
+                    .offset(x: 0, y: self.getOffsetForHeaderImage(geometry))
+            }.frame(height: 300)
+            
+            VStack(alignment: .leading, spacing: 10) {
+                HStack {
+                    
+                    // 1. THUMBNAIL IMAGE PROFILE
+                    Image(item.mainImage)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 55, height: 55)
+                        .clipShape(Circle())
+                        .shadow(radius: 4)
+                    
+                    // 2. DETAILS OF MANAGERS
+                    VStack(alignment: .leading) {
+                        Text("Bistrot manager")
+                            .font(.system(size: 12))
+                            .fontWeight(.semibold)
+                            .foregroundColor(.gray)
+                        Text(item.photoCredit)
+                            .font(.system(size: 17))
+                            .fontWeight(.semibold)
+                    }
+                }
+                    // 3. WAITING HOURS
+                    Text("Tempi di attesa: 3min")
+                        .foregroundColor(.gray)
+                
+                    // 4. TITLE ITEM
+                    Text(item.name)
+                        .font(.title)
+                        .fontWeight(.heavy)
+                
+                    // 5. DESCRIPTION ITEM
+                    Text(item.description)
+                        .lineLimit(nil)
+                        .font(.system(size: 17))
+                
+            }
+            .padding(.horizontal)
+            .padding(.top, 16.0)
+        }.edgesIgnoringSafeArea(.all)
+        
+      
+       
+    }
+       
 }
 
 struct ItemDetail_Previews: PreviewProvider {
+    
+    static let order = Order()
+    
     static var previews: some View {
-        ItemDetail()
+        NavigationView{
+            ItemDetail(item: MenuItem.example).environmentObject(order)
+        }
     }
 }

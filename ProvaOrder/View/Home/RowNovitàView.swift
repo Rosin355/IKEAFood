@@ -26,6 +26,7 @@ struct RowNovita_View: View {
                 VStack {
                     HStack {
                         Text(section.title)
+                            .font(.headline)
                         Spacer()
                     }
                     
@@ -59,14 +60,15 @@ struct RowNovita_View: View {
                     HStack {
                         Text(section.price)
                             .font(.title)
+                            
                         Spacer()
                         
                         Button(action: {
                             //
                         }) {
-                            Image(systemName: "cart")
+                            Image(systemName: "bag.fill.badge.plus")
                                 .foregroundColor(.white)
-                                .font(.system(size: 23, weight: .bold, design: .rounded))
+                                .font(.system(size: 16, weight: .bold, design: .rounded))
                                 .padding(.vertical, 9)
                                 .padding(.horizontal, 12)
                                 .background(Color("IkeaBlu"))

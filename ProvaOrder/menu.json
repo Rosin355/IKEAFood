@@ -1,27 +1,27 @@
 [
 	{
         "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
-		"name": "Breakfast",
+		"name": "Colazione",
 		"items": [
 			{
                 "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
-				"name": "Maple French Toast",
-				"photoCredit": "Joseph Gonzalez",
+				"name": "Toast",
+				"photoCredit": "Cristiano Carpi",
 				"price": 6,
 				"restrictions": ["G", "V"],
-				"description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+				"description": "Dolce, soffice e servito bollente, il nostro toast francese arriva ogni giorno fresco da Maple City, in Canada, da dove proviene tutto lo sciroppo d'acero del mondo. E se ci credi, abbiamo un po prodotti che ti possono soddisfare il tuo palato..."
 			},
 			{
                 "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
-				"name": "Stack-o-Pancakes",
+				"name": "Pancakes",
 				"photoCredit": "Joseph Gonzalez",
 				"price": 8,
 				"restrictions": ["D", "G", "V"],
-				"description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+				"description": "Buonissimo pancake al gusto di cannella e zenzero, un gusto indimenticabile che ricorda i vecchi sapori della svezia"
 			},
 			{
                 "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
-				"name": "Power Muesli",
+				"name": "Cornflakes",
 				"photoCredit": "Hanny Naibaho",
 				"price": 5,
 				"restrictions": ["D", "N"],
@@ -29,7 +29,7 @@
 			},
 			{
                 "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
-				"name": "Fresh-baked Croissant",
+				"name": "Brioche svedesi",
 				"photoCredit": "Kavita Joshi Rai",
 				"price": 3,
 				"restrictions": ["D", "G"],
@@ -37,7 +37,7 @@
 			},
 			{
                 "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
-				"name": "Full English",
+				"name": "Colazione Svedese",
 				"photoCredit": "Melissa Walker Horn",
 				"price": 12,
 				"restrictions": ["G"],
@@ -45,7 +45,7 @@
 			},
 			{
                 "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
-				"name": "Porridge Deluxe",
+				"name": "Porridge",
 				"photoCredit": "Monika Grabkowska",
 				"price": 4,
 				"restrictions": ["D", "N", "V"],
@@ -54,12 +54,12 @@
 		]
 	},
 	{
-		"name": "Mains",
+		"name": "Primi",
         "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
 		"items": [
 			{
                 "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
-				"name": "Penne Carbonara",
+				"name": "Penne alla Carbonara",
 				"photoCredit": "Brooke Lark",
 				"price": 15,
 				"restrictions": ["D", "G"],
@@ -67,7 +67,7 @@
 			},
 			{
                 "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
-				"name": "Mushroom Tagliatelle",
+				"name": "Tagliatelle con i funghi",
 				"photoCredit": "Eaters Collective",
 				"price": 12,
 				"restrictions": ["D", "G", "V"],
@@ -99,7 +99,7 @@
 			},
 			{
                 "id": "024763B6-2577-4D04-9A4F-321F3EB19EA6",
-				"name": "Superfood Salad",
+				"name": "Insalatona Meditteranea",
 				"photoCredit": "Mgg Vitchakorn",
 				"price": 9,
 				"restrictions": ["N", "V"],
@@ -107,7 +107,7 @@
 			},
 			{
                 "id": "22E8B9F0-94C1-43EC-9B19-34F22CA17B6B",
-				"name": "Pesto Farfalle",
+				"name": "Farfalle al pesto",
 				"photoCredit": "Eaters Collective",
 				"price": 10,
 				"restrictions": ["G", "N", "V"],
@@ -115,7 +115,7 @@
 			},
 			{
                 "id": "DD20B3C1-438A-4657-BCFA-A0C6DA1AE7EE",
-				"name": "Corn on the cob",
+				"name": "Panocchia calda",
 				"photoCredit": "Dragne Marius",
 				"price": 6,
 				"restrictions": ["V"],
@@ -123,7 +123,7 @@
 			},
 			{
                 "id": "44FBAFC0-BEE0-4A02-9C57-B8ECDC1CE5E1",
-				"name": "Fillet Steak",
+				"name": "Tonno alla piastra",
 				"photoCredit": "Alex Munsell",
 				"price": 20,
 				"restrictions": [],
@@ -131,7 +131,7 @@
 			},
 			{
                 "id": "F0B4DF27-B293-4151-8480-FA46DFCA5BBB",
-				"name": "Cheese Toastie",
+				"name": "Toast ai 4 formaggi",
 				"photoCredit": "Asnim Asnim",
 				"price": 7,
 				"restrictions": ["G"],
@@ -139,7 +139,7 @@
 			},
 			{
                 "id": "FD3BACF7-01AE-449D-8929-26C6F8EC90D5",
-				"name": "Pepperoni Pizza",
+				"name": "Pizza",
 				"photoCredit": "Thomas Tucker",
 				"price": 14,
 				"restrictions": ["D", "G"],
@@ -147,7 +147,7 @@
 			},
 			{
                 "id": "F5BCE219-391D-4AAF-8DA7-D25096776D46",
-				"name": "Veggie Pizza",
+				"name": "Pizza vegana",
 				"photoCredit": "Cel Lisboa",
 				"price": 12,
 				"restrictions": ["D", "G", "V"],
@@ -156,12 +156,12 @@
 		]
 	},
 	{
-		"name": "Dessert",
+		"name": "Dolci e Gelati",
         "id": "1C89DAFD-7653-4EF2-BF20-C51A159BAC43",
 		"items": [
 			{
                 "id": "AB7E38EA-05A7-426A-AFF3-B3A32B3E86BF",
-				"name": "Strawberry Surprise",
+				"name": "Sopresa alla fragola",
 				"photoCredit": "Karly Gomez",
 				"price": 6,
 				"restrictions": ["D", "V"],
@@ -169,7 +169,7 @@
 			},
 			{
                 "id": "758ABBE3-F338-4F7C-BAC7-8D61BC1FB329",
-				"name": "Macarons Galore",
+				"name": "Macarons",
 				"photoCredit": "Mana",
 				"price": 8,
 				"restrictions": ["N", "V"],
@@ -177,7 +177,7 @@
 			},
 			{
                 "id": "A73E2D2D-D53A-46D4-8829-62011EEF7DA4",
-				"name": "All Out Donuts",
+				"name": "Ciambelle",
 				"photoCredit": "Kobby Mendez",
 				"price": 5,
 				"restrictions": ["G", "V"],
@@ -194,12 +194,12 @@
 		]
 	},
 	{
-		"name": "Drinks",
+		"name": "Bevande",
         "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE3C",
 		"items": [
 			{
                 "id": "A4D89AF9-190E-4409-B924-AABD13DBB6A4",
-				"name": "Virgin Mojito",
+				"name": "Gazzosa",
 				"photoCredit": "Melissa Walker Horn",
 				"price": 5,
 				"restrictions": ["V"],
@@ -207,7 +207,7 @@
 			},
 			{
                 "id": "FC201614-1418-4152-9469-087B27485D13",
-				"name": "Strawberry Cooler",
+				"name": "Frullato alla fragola",
 				"photoCredit": "Alex Loup",
 				"price": 6,
 				"restrictions": ["V"],
@@ -215,7 +215,7 @@
 			},
 			{
                 "id": "58CE3F3E-74E1-4C5F-A630-986B187788B5",
-				"name": "Powerhouse coffee",
+				"name": "Mousse al caffè",
 				"photoCredit": "Nathan Dumlao",
 				"price": 3,
 				"restrictions": ["V"],
@@ -231,7 +231,7 @@
 			},
 			{
                 "id": "DE58CEFF-7023-4B60-88CC-80C5B7BFB6EC",
-				"name": "Chrysanthemum Tea",
+				"name": "Tea Verde",
 				"photoCredit": "Loverna Journey",
 				"price": 4,
 				"restrictions": ["V"],
