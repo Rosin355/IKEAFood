@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD37504A2493C13D002425D4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3750492493C13D002425D4 /* CheckoutView.swift */; };
+		CD37504C2493D77A002425D4 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD37504B2493D77A002425D4 /* AddressView.swift */; };
 		CD7AC6702493B0FD002F0390 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7AC66F2493B0FD002F0390 /* OrderView.swift */; };
 		CD7DA676248E7B3900E6666C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA675248E7B3900E6666C /* AppDelegate.swift */; };
 		CD7DA678248E7B3900E6666C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7DA677248E7B3900E6666C /* SceneDelegate.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		CD3750492493C13D002425D4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		CD37504B2493D77A002425D4 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		CD7AC66F2493B0FD002F0390 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		CD7DA672248E7B3900E6666C /* IKEAFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEAFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7DA675248E7B3900E6666C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				CD9521A2248F936100E7DB5A /* ItemDetail.swift */,
 				CD7AC66F2493B0FD002F0390 /* OrderView.swift */,
 				CD3750492493C13D002425D4 /* CheckoutView.swift */,
+				CD37504B2493D77A002425D4 /* AddressView.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				CD7DA693248E7B6600E6666C /* Helper.swift in Sources */,
 				CD7DA676248E7B3900E6666C /* AppDelegate.swift in Sources */,
 				CD37504A2493C13D002425D4 /* CheckoutView.swift in Sources */,
+				CD37504C2493D77A002425D4 /* AddressView.swift in Sources */,
 				CD7DA6A5248EC6BB00E6666C /* ItemRow.swift in Sources */,
 				CD7DA67B248E7B3900E6666C /* ProvaOrder.xcdatamodeld in Sources */,
 				CD7DA69D248E8AFF00E6666C /* Home.swift in Sources */,
@@ -388,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = romeshsinghabahu.ProvaOrder;
 				PRODUCT_NAME = IKEAFood;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = romeshsinghabahu.ProvaOrder;
 				PRODUCT_NAME = IKEAFood;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -10,6 +10,13 @@ import SwiftUI
 
 class Order: ObservableObject {
     @Published var items = [MenuItem]()
+    @Published var quantity = 1
+    
+    @Published var name = ""
+    @Published var streetAddress = ""
+    @Published var city = ""
+    @Published var zip = ""
+    @Published var telephone = ""
 
     var total: Int {
         if items.count > 0 {
@@ -27,5 +34,12 @@ class Order: ObservableObject {
         if let index = items.firstIndex(of: item) {
             items.remove(at: index)
         }
+    }
+    
+    var hasValidAddress: Bool {
+        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty || telephone.isEmpty {
+            return false
+        }
+        return true
     }
 }
