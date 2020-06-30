@@ -54,7 +54,7 @@ struct ItemDetail: View {
                     .frame(width: geometry.size.width, height: self.getHeightForHeaderImage(geometry))
                     .clipped()
                     .offset(x: 0, y: self.getOffsetForHeaderImage(geometry))
-            }.frame(height: 300)
+            }.frame(height: 250)
             
             VStack(alignment: .leading, spacing: 10) {
                 HStack {
@@ -130,8 +130,15 @@ struct ItemDetail_Previews: PreviewProvider {
     static let order = Order()
     
     static var previews: some View {
-        NavigationView{
-            ItemDetail(item: MenuItem.example).environmentObject(order)
+        Group {
+            NavigationView{
+                ItemDetail(item: MenuItem.example).environmentObject(order)
+            }
+            .previewDevice("iPhone 11")
+            NavigationView{
+                ItemDetail(item: MenuItem.example).environmentObject(order)
+            }
+            .previewDevice("iPhone SE (2nd generation)")
         }
     }
 }
